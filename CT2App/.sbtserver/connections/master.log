@@ -1,0 +1,85 @@
+New log file opened at Wed Aug 03 23:39:42 EDT 2016 by 8436@Tasha
+Taking next connection to: 65065
+New client attempting to connect on port: 65066-65065
+  Address = /192.168.1.10:65065
+This client on port 65066 has uuid 7cd8593e-6ad9-41fc-9abd-14a073dc3350 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-7cd8593e-6ad9-41fc-9abd-14a073dc3350
+Taking next connection to: 65065
+New client attempting to connect on port: 65067-65065
+  Address = /192.168.1.10:65065
+Handshake exception on socket: 65067
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 65065
+New client attempting to connect on port: 65068-65065
+  Address = /192.168.1.10:65065
+This client on port 65068 has uuid a6dcd532-b66b-4348-bf72-088b76598690 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-7cd8593e-6ad9-41fc-9abd-14a073dc3350, activator-a6dcd532-b66b-4348-bf72-088b76598690
+Taking next connection to: 65065
+New client attempting to connect on port: 65069-65065
+  Address = /192.168.1.10:65065
+Handshake exception on socket: 65069
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 65065
+New client attempting to connect on port: 65070-65065
+  Address = /192.168.1.10:65065
+This client on port 65070 has uuid 98f5695f-ba63-4800-a4c8-851aae956f55 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-7cd8593e-6ad9-41fc-9abd-14a073dc3350, activator-a6dcd532-b66b-4348-bf72-088b76598690, activator-98f5695f-ba63-4800-a4c8-851aae956f55
+Taking next connection to: 65065
+New client attempting to connect on port: 65086-65065
+  Address = /192.168.1.10:65065
+Handshake exception on socket: 65086
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 65065
+New client attempting to connect on port: 65087-65065
+  Address = /192.168.1.10:65065
+This client on port 65087 has uuid 05d5b1f6-2950-4acf-9021-80c52251158d configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-7cd8593e-6ad9-41fc-9abd-14a073dc3350, activator-05d5b1f6-2950-4acf-9021-80c52251158d
+Taking next connection to: 65065
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 8436@Tasha logs at Wed Aug 03 23:44:05 EDT 2016, goodbye.
